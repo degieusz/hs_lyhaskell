@@ -1,6 +1,9 @@
 module Main where
 
 import Lib
+import L1105
 
 main :: IO ()
-main = someFunc
+main = do
+    someFunc
+    print(elemsSumRoot)
