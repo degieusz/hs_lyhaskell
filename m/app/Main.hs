@@ -1,9 +1,11 @@
 module Main where
 
-import Lib
-import L1105
+{-import L0-}
+{-import Lib-}
+{-import L1105-}
+import CustomTypeClass
 
 main :: IO ()
 main = do
-    someFunc
-    print(elemsSumRoot)
+    {-someFunc-}
+    {-print(elemsSumRoot)-}
